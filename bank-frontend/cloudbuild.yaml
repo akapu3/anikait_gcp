@@ -8,7 +8,7 @@ steps:
     - 'REACT_APP_API_URL=https://anikait-backend-79505229087.northamerica-northeast2.run.app/api/v1'
     - '-t'
     - 'northamerica-northeast2-docker.pkg.dev/$PROJECT_ID/anikait-repo/frontend:$COMMIT_SHA'
-    - './frontend'
+    - './bank-frontend'
 
 # Push image
 - name: 'gcr.io/cloud-builders/docker'
