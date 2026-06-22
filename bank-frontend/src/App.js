@@ -75,7 +75,7 @@ export default function App() {
           <NavigationBarLink primary='Register'/>
         </NavigationBar>
         <NavigationDrawer handleDrawerClose={handleDrawerClose} isMobileOpen={isMobileOpen} drawerWidth={drawerWidth}>
-          <NavigationDrawerLink primary='Accounts' onClick={() => navigate('/accounts')} />
+          <NavigationDrawerLink primary='List of Accounts' onClick={() => navigate('/accounts')} />
           <NavigationDrawerForm primary='Account ID' name='findAccount' onSubmit={(id) => refresh(`/accounts/${id}`)} />
           <Divider />
           <NavigationDrawerLink primary='Customers' onClick={() => navigate('/customers')} />
